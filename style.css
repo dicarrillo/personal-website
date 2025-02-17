@@ -7,6 +7,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
@@ -19,31 +21,33 @@ a {
 
 .header {
     display: flex;
-    background-color: rgb(229, 229, 229);
+    background-color: rgb(14, 51, 137);
     justify-content: flex-end;
     align-items: center;
-    height: 48px;
+    height: 56px;
     position: sticky;
     top: 0;
 }
 
 .nav-links {
     display: flex;
-    gap: 56px;
-    margin-right: 72px;
+    gap: 24px;
+    margin-right: 48px;
 }
 
 .nav-label {
-    margin-right: 64px;
-    font-size: 16px;
+    margin-right: 24px;
+    font-size: 18px;
+    color: white;
 }
 
 .nav-links li {
     border: 0.5px solid black;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 8px;
     width: 120px;
     text-align: center;
+    background-color: rgb(210, 209, 209);
 }
 
 .nav-links li a {
@@ -54,12 +58,12 @@ a {
 .footer {
     display: flex;
     justify-content: center;
-    background-color: rgb(229, 229, 229);
-    height: 48px;
+    background-color: rgb(14, 51, 137);
+    height: 56px;
     align-items: center;
 }
 
 .footer a {
-    color: black;
+    color: white;
     font-size: 18px;
 }
