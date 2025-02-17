@@ -9,6 +9,7 @@ body {
     height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: "Georgia", serif;
 }
 
 ul {
@@ -17,6 +18,14 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 36px;
 }
 
 .header {
@@ -47,7 +56,7 @@ a {
     padding: 8px;
     width: 120px;
     text-align: center;
-    background-color: rgb(210, 209, 209);
+    background-color: rgb(219, 219, 219);
 }
 
 .nav-links li a {
@@ -67,3 +76,61 @@ a {
     color: white;
     font-size: 18px;
 }
+
+.content-area {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex: auto;
+}
+
+.content-area p {
+    flex: 2;
+    align-self: center;
+    font-size: 24px;
+    padding-right: 24px;
+}
+
+.name-logos {
+    display: flex;
+    padding: 24px;
+}
+
+.name {
+    margin-right: auto;
+}
+
+.logos {
+    display: flex;
+    gap: 36px;
+}
+
+.logos img{
+    height: 150px;
+    width: auto;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin-right: 60px;
+}
+
+.pic-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.headshot {
+    height: 400px;
+    width: auto;
+}
+
+.pic-description {
+    display: flex;
+}
+
+
