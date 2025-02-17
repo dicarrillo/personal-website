@@ -33,7 +33,7 @@ h2 {
     background-color: rgb(14, 51, 137);
     justify-content: flex-end;
     align-items: center;
-    height: 56px;
+    height: 64px;
     position: sticky;
     top: 0;
 }
@@ -68,13 +68,13 @@ h2 {
     display: flex;
     justify-content: center;
     background-color: rgb(14, 51, 137);
-    height: 56px;
+    height: 64px;
     align-items: center;
 }
 
 .footer a {
     color: white;
-    font-size: 18px;
+    font-size: 24px;
 }
 
 .content-area {
@@ -124,7 +124,7 @@ h2 {
     justify-content: center;
 }
 
-.headshot {
+.main-pic {
     height: 400px;
     width: auto;
 }
