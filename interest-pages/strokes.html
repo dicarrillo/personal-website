@@ -33,6 +33,10 @@
 
         <a class = "home-link" href = "../index.html"><strong>Home</strong></a>
 
+        <div class="theme-button">
+            <button id = "0" class = "button-style">Light/Dark</button>
+        </div>
+
         <div class = "nav-label">Navigation:</div>
 
         <ul class = "nav-links">
@@ -86,6 +90,12 @@
         <a href = "../contact.html"><strong>Contact</strong></a>
 
     </div>
+
+    <script>
+        document.getElementById("0").onclick = function(){
+            document.getElementsByTagName("body")[0].classList.toggle("dark");
+        };
+    </script>
 
 </body>
 
