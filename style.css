@@ -28,6 +28,7 @@ h2 {
     font-size: 36px;
 }
 
+/* Header bar */
 .header {
     display: flex;
     background-color: rgb(14, 51, 137);
@@ -44,11 +45,13 @@ h2 {
     margin-left: 48px;
 }
 
+/* Positioning dark mode button */
 .theme-button {
     margin-right: auto;
     margin-left: 100px;
 }
 
+/* Styling dark mode button */
 .button-style {
     border-radius: 10px;
     padding: 8px;
@@ -86,6 +89,7 @@ h2 {
     font-size: 16px;
 }
 
+/* Footer bar */
 .footer {
     display: flex;
     justify-content: center;
@@ -100,6 +104,7 @@ h2 {
     font-size: 20px;
 }
 
+/* Main content area (entire area between header and footer */
 .content-area {
     background-color: white;
     display: flex;
@@ -155,6 +160,8 @@ h2 {
     display: flex;
     flex-wrap: wrap;
 }
+
+/* Dark mode style specifications */
 
 body.dark .content-area {
     background-color:rgb(50, 50, 50);
